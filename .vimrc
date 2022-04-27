@@ -1,0 +1,38 @@
+""""""""""""
+"Filetype detection
+""""""""""""
+filetype on
+filetype plugin on
+filetype indent on
+""""""""""""
+"Basic Settings
+""""""""""""
+colorscheme herald
+let g:airline_theme='desertink'
+syntax enable
+set tabstop=3
+set softtabstop=3
+set expandtab
+set shiftwidth=3
+set number
+set showcmd
+filetype indent on
+set wildmenu
+set hlsearch
+set autoindent
+set smartindent
+set cindent
+
+""""""""""""
+"Key bindings
+""""""""""""
+nnoremap j gj
+nnoremap k gk
+nnoremap H i<CR><Esc>
+
+""""""""""""
+"Stop matching parentheses
+""""""""""""
+let g:loaded_matchparen=1
+"set showmatch
+"set matchtime=0 
